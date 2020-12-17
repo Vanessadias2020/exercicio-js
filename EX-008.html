@@ -7,10 +7,21 @@
     <link href="css/estilos.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<h3> WHILE </h3>
-<h2> </h2>
-<div id = "contagem"></div>
+<h2>Faça um programa que calcule o número médio de alunos por turma para cada uma das 3 turmas que o professor possui. Para isto, peça a quantidade de alunos para cada turma. As turmas não podem ter mais de 40 alunos. </h2>
 
-    <script src="js/EX-008.js"></script>   
+<form>
+    <label for = "inicial">Quantidade de alunos da turma
+1:</label>
+<input type="number" id= "turma1" max="40"><br>
+<label for ="inicial">Quantidade de alunos da tuma 2:</label>  
+<input type="number" id= "turma2" max="40"><br>
+<label for ="inicial">Quantidade de alunos da tuma 3:</label>  
+<input type="number" id= "turma3" max="40"><br>
+<button type="button" onclick="MediaDeAlunos();">Calcular a media de alunos </button>
+</form>
+
+<div id = "resultado"></div>
+
+    <script src="js/EX - 008.js"></script>   
 </body>
 </html>
